@@ -1,6 +1,10 @@
 .container {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(1fr);
+=======
+  grid-template-columns: repeat(3, 1fr);
+>>>>>>> aed40393739bcf84678aa9de606780ca3b70ff9a
   grid-template-rows: 30px 60px 80px;
   gap: 10px;
 }
