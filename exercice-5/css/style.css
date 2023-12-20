@@ -71,3 +71,11 @@ main .container .info button {
 .social i {
   margin: 10px;
 }
+
+@media screen and (min-width: 375px) {
+  main .container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+}
